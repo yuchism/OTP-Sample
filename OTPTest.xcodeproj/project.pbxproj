@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5215C4691B9D3D9400C3462A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5215C4681B9D3D9400C3462A /* main.m */; };
+		5215C46C1B9D3D9400C3462A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5215C46B1B9D3D9400C3462A /* AppDelegate.m */; };
+		5215C46F1B9D3D9400C3462A /* OTPTest.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5215C46D1B9D3D9400C3462A /* OTPTest.xcdatamodeld */; };
+		5215C4721B9D3D9400C3462A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5215C4711B9D3D9400C3462A /* ViewController.m */; };
+		5215C4751B9D3D9400C3462A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5215C4731B9D3D9400C3462A /* Main.storyboard */; };
+		5215C4771B9D3D9400C3462A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5215C4761B9D3D9400C3462A /* Images.xcassets */; };
+		5215C47A1B9D3D9400C3462A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5215C4781B9D3D9400C3462A /* LaunchScreen.xib */; };
+		5215C4861B9D3D9400C3462A /* OTPTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5215C4851B9D3D9400C3462A /* OTPTestTests.m */; };
+		5215C4A81B9D490700C3462A /* OTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 5215C4A71B9D490700C3462A /* OTPClient.m */; };
+		9DB5EBDD7646F0B82BBD2B10 /* libPods-OTPTest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 609476EDBF4BCE9AB010277D /* libPods-OTPTest.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5215C4801B9D3D9400C3462A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5215C45B1B9D3D9400C3462A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5215C4621B9D3D9400C3462A;
+			remoteInfo = OTPTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5215C4631B9D3D9400C3462A /* OTPTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OTPTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5215C4671B9D3D9400C3462A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5215C4681B9D3D9400C3462A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5215C46A1B9D3D9400C3462A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5215C46B1B9D3D9400C3462A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5215C46E1B9D3D9400C3462A /* OTPTest.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = OTPTest.xcdatamodel; sourceTree = "<group>"; };
+		5215C4701B9D3D9400C3462A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5215C4711B9D3D9400C3462A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5215C4741B9D3D9400C3462A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5215C4761B9D3D9400C3462A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		5215C4791B9D3D9400C3462A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		5215C47F1B9D3D9400C3462A /* OTPTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OTPTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5215C4841B9D3D9400C3462A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5215C4851B9D3D9400C3462A /* OTPTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OTPTestTests.m; sourceTree = "<group>"; };
+		5215C4A61B9D490700C3462A /* OTPClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OTPClient.h; sourceTree = "<group>"; };
+		5215C4A71B9D490700C3462A /* OTPClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OTPClient.m; sourceTree = "<group>"; };
+		5A7BBC4C90AF75AE5B364D69 /* Pods-OTPTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OTPTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OTPTest/Pods-OTPTest.debug.xcconfig"; sourceTree = "<group>"; };
+		609476EDBF4BCE9AB010277D /* libPods-OTPTest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OTPTest.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8266333127C0CB8645E39C4C /* Pods-OTPTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OTPTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-OTPTest/Pods-OTPTest.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5215C4601B9D3D9400C3462A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DB5EBDD7646F0B82BBD2B10 /* libPods-OTPTest.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5215C47C1B9D3D9400C3462A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0718BBACE6DBAD2CA9F17132 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5A7BBC4C90AF75AE5B364D69 /* Pods-OTPTest.debug.xcconfig */,
+				8266333127C0CB8645E39C4C /* Pods-OTPTest.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		5215C45A1B9D3D9400C3462A = {
+			isa = PBXGroup;
+			children = (
+				5215C4651B9D3D9400C3462A /* OTPTest */,
+				5215C4821B9D3D9400C3462A /* OTPTestTests */,
+				5215C4641B9D3D9400C3462A /* Products */,
+				0718BBACE6DBAD2CA9F17132 /* Pods */,
+				C42B9D3395916D139DEFDEF6 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5215C4641B9D3D9400C3462A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5215C4631B9D3D9400C3462A /* OTPTest.app */,
+				5215C47F1B9D3D9400C3462A /* OTPTestTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5215C4651B9D3D9400C3462A /* OTPTest */ = {
+			isa = PBXGroup;
+			children = (
+				5215C4A61B9D490700C3462A /* OTPClient.h */,
+				5215C4A71B9D490700C3462A /* OTPClient.m */,
+				5215C46A1B9D3D9400C3462A /* AppDelegate.h */,
+				5215C46B1B9D3D9400C3462A /* AppDelegate.m */,
+				5215C4701B9D3D9400C3462A /* ViewController.h */,
+				5215C4711B9D3D9400C3462A /* ViewController.m */,
+				5215C4731B9D3D9400C3462A /* Main.storyboard */,
+				5215C4761B9D3D9400C3462A /* Images.xcassets */,
+				5215C4781B9D3D9400C3462A /* LaunchScreen.xib */,
+				5215C46D1B9D3D9400C3462A /* OTPTest.xcdatamodeld */,
+				5215C4661B9D3D9400C3462A /* Supporting Files */,
+			);
+			path = OTPTest;
+			sourceTree = "<group>";
+		};
+		5215C4661B9D3D9400C3462A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5215C4671B9D3D9400C3462A /* Info.plist */,
+				5215C4681B9D3D9400C3462A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5215C4821B9D3D9400C3462A /* OTPTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				5215C4851B9D3D9400C3462A /* OTPTestTests.m */,
+				5215C4831B9D3D9400C3462A /* Supporting Files */,
+			);
+			path = OTPTestTests;
+			sourceTree = "<group>";
+		};
+		5215C4831B9D3D9400C3462A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5215C4841B9D3D9400C3462A /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C42B9D3395916D139DEFDEF6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				609476EDBF4BCE9AB010277D /* libPods-OTPTest.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5215C4621B9D3D9400C3462A /* OTPTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5215C4891B9D3D9400C3462A /* Build configuration list for PBXNativeTarget "OTPTest" */;
+			buildPhases = (
+				9EA5BBB658B9644F5A29C569 /* Check Pods Manifest.lock */,
+				5215C45F1B9D3D9400C3462A /* Sources */,
+				5215C4601B9D3D9400C3462A /* Frameworks */,
+				5215C4611B9D3D9400C3462A /* Resources */,
+				B43253566DC35CEE2B98857B /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OTPTest;
+			productName = OTPTest;
+			productReference = 5215C4631B9D3D9400C3462A /* OTPTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5215C47E1B9D3D9400C3462A /* OTPTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5215C48C1B9D3D9400C3462A /* Build configuration list for PBXNativeTarget "OTPTestTests" */;
+			buildPhases = (
+				5215C47B1B9D3D9400C3462A /* Sources */,
+				5215C47C1B9D3D9400C3462A /* Frameworks */,
+				5215C47D1B9D3D9400C3462A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5215C4811B9D3D9400C3462A /* PBXTargetDependency */,
+			);
+			name = OTPTestTests;
+			productName = OTPTestTests;
+			productReference = 5215C47F1B9D3D9400C3462A /* OTPTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5215C45B1B9D3D9400C3462A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = Yuch;
+				TargetAttributes = {
+					5215C4621B9D3D9400C3462A = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					5215C47E1B9D3D9400C3462A = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 5215C4621B9D3D9400C3462A;
+					};
+				};
+			};
+			buildConfigurationList = 5215C45E1B9D3D9400C3462A /* Build configuration list for PBXProject "OTPTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5215C45A1B9D3D9400C3462A;
+			productRefGroup = 5215C4641B9D3D9400C3462A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5215C4621B9D3D9400C3462A /* OTPTest */,
+				5215C47E1B9D3D9400C3462A /* OTPTestTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5215C4611B9D3D9400C3462A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5215C4751B9D3D9400C3462A /* Main.storyboard in Resources */,
+				5215C47A1B9D3D9400C3462A /* LaunchScreen.xib in Resources */,
+				5215C4771B9D3D9400C3462A /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5215C47D1B9D3D9400C3462A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9EA5BBB658B9644F5A29C569 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B43253566DC35CEE2B98857B /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OTPTest/Pods-OTPTest-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5215C45F1B9D3D9400C3462A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5215C46C1B9D3D9400C3462A /* AppDelegate.m in Sources */,
+				5215C46F1B9D3D9400C3462A /* OTPTest.xcdatamodeld in Sources */,
+				5215C4721B9D3D9400C3462A /* ViewController.m in Sources */,
+				5215C4A81B9D490700C3462A /* OTPClient.m in Sources */,
+				5215C4691B9D3D9400C3462A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5215C47B1B9D3D9400C3462A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5215C4861B9D3D9400C3462A /* OTPTestTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5215C4811B9D3D9400C3462A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5215C4621B9D3D9400C3462A /* OTPTest */;
+			targetProxy = 5215C4801B9D3D9400C3462A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5215C4731B9D3D9400C3462A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5215C4741B9D3D9400C3462A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5215C4781B9D3D9400C3462A /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5215C4791B9D3D9400C3462A /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5215C4871B9D3D9400C3462A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5215C4881B9D3D9400C3462A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5215C48A1B9D3D9400C3462A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5A7BBC4C90AF75AE5B364D69 /* Pods-OTPTest.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = OTPTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5215C48B1B9D3D9400C3462A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8266333127C0CB8645E39C4C /* Pods-OTPTest.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = OTPTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5215C48D1B9D3D9400C3462A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = OTPTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OTPTest.app/OTPTest";
+			};
+			name = Debug;
+		};
+		5215C48E1B9D3D9400C3462A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = OTPTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OTPTest.app/OTPTest";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5215C45E1B9D3D9400C3462A /* Build configuration list for PBXProject "OTPTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5215C4871B9D3D9400C3462A /* Debug */,
+				5215C4881B9D3D9400C3462A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5215C4891B9D3D9400C3462A /* Build configuration list for PBXNativeTarget "OTPTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5215C48A1B9D3D9400C3462A /* Debug */,
+				5215C48B1B9D3D9400C3462A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5215C48C1B9D3D9400C3462A /* Build configuration list for PBXNativeTarget "OTPTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5215C48D1B9D3D9400C3462A /* Debug */,
+				5215C48E1B9D3D9400C3462A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		5215C46D1B9D3D9400C3462A /* OTPTest.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				5215C46E1B9D3D9400C3462A /* OTPTest.xcdatamodel */,
+			);
+			currentVersion = 5215C46E1B9D3D9400C3462A /* OTPTest.xcdatamodel */;
+			path = OTPTest.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 5215C45B1B9D3D9400C3462A /* Project object */;
+}
