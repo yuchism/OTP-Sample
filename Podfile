@@ -5,7 +5,8 @@ target 'OTPTest' do
 	pod 'AeroGear-OTP'
 end
 
-target 'OTPTestTests' do
 
+target 'OTPTest WatchKit Extension' do
+	pod 'AeroGear-OTP'
 end
 
